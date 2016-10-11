@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>Class Table</title>
+<body>
+<center><h1>Class Table</h1></center>
+<style>
+body {
+	background: #fafafa url(http://jackrugile.com/images/misc/noise-diagonal.png);
+	color: #444;
+	font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+	text-shadow: 0 1px 0 #fff;
+}
+
+strong {
+	font-weight: bold; 
+}
+
+em {
+	font-style: italic; 
+}
+
+table {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: center;
+	width: 800px;
+}	
+
+th {
+	background: url(http://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+  	font-weight: bold;
+	padding: 10px 50px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+	background: url(http://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+	background: #f1f1f1 url(http://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+</style>
+
+<table id="t01">
+ <thead>
+  <tr>
+    <th>Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+ </thead>
+
+ <tbody>
+  <tr>
+    <th>1 08:10 | 09:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="2">INTERCONNECTED AND HIGH SPEED NETWORK<br><br>IEBB19</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>2 09:10 | 10:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>3 10:10 | 11:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>4 11:10 | 12:00</th>
+    <td>INTRODUCTION TO SOC DESIGN<br><br>IEB403</td>
+    <td></td>
+    <td>OPERATING SYSTEMS<br>(1)<br><br>IEBB03</td>
+    <td>INFORMATION AND NETWORK SECURITY<br><br>IEBB03</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>5 12:10 | 13:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>6 13:10 | 14:00</th>
+    <td></td>
+    <td rowspan="2">INFORMATION AND NETWORK SECURITY<br><br>IEBB04</td>
+    <td rowspan="2">DATABASE SYSTEMS<br><br>IEB404</td>
+    <td rowspan="2">OPERATING SYSTEMS<br>(1)<br><br>SAB102</td>
+    <td>CLASS ACTIVITY<br><br>IEB104</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>7 14:10 | 15:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>8 15:10 | 16:00</th>
+    <td rowspan="2">GOLF<br><br>SC101</td>
+    <td>INTERCONNECTED AND HIGH SPEED NETWORK<br><br>IEB404</td>
+    <td></td>
+    <td>DATABASE SYSTEMS<br><br>IEB404</td>
+    <td rowspan="2">FOREIGN LANGUAGE FOR THE WORKPLACE<br><br>IEB103</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>9 16:10 | 17:00</th>
+    <td></td>
+    <td></td>
+    <td rowspan="2">INTRODUCTION TO SOC DESIGN<br><br>IEB248</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>10 17:10 | 18:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>11 18:10 | 19:00</th>
+    <td rowspan="3">HUMAN RELATION<br><br>SAB205</td>
+    <td rowspan="3">WEB PROGRAMMING<br><br>IEBB19</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>12 19:10 | 20:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>13 20:10 | 21:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>14 21:10 | 22:00</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+ </tbody>
+</table>
+
+</body>
+</html>
